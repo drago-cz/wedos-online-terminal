@@ -119,7 +119,12 @@ except:
     volba = 1
 
 while True:
-    os.system('cls')
+    # mazání obrazovaky
+    if(os.name == 'posix'):
+        os.system('clear')
+    else:
+        os.system('cls')
+
     # všechny 
     if volba == 1:
         dotaz           = wedos_api_url + 'checks'
