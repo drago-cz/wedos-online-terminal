@@ -1,3 +1,6 @@
 __pycache__/
+.gitignore
 config.py
 projekt.txt
+wedos-online-terminal.code-workspace
+debug.txt
