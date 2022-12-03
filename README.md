@@ -16,10 +16,10 @@
  * E-mail a API klíč vložte do souboru `config.py`
 
 ### Verze 1.1 (aktuální)
-[x] ošetření stavu kontrol
-[x] dát volbu filtrace kontrol při spuštění skriptu
-[x] ošetřit maximální velikost názvů přímo v hezka_tabulka()
-[x] přidání logování
+- [x] ošetření stavu kontrol
+- [x] dát volbu filtrace kontrol při spuštění skriptu
+- [x] ošetřit maximální velikost názvů přímo v hezka_tabulka()
+- [x] přidání logování
 
 ### Verze 1.0
  První pracovní verze, která zobrazuje všechny kontroly a jejich aktuální stav. Refresh je na 30 vteřin. 
