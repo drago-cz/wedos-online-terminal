@@ -167,10 +167,10 @@ while True:
         else:
             radek += Fore.RED + hezka_tabulka(kontroly["uptime_1d"], 6) + Fore.RESET
         radek += ' │ '
-        if kontroly["errorSeconds_1d"] > 0:
+        if kontroly["errorSeconds_1d"] is not None and kontroly["errorSeconds_1d"] > 0:
             radek += Fore.RED + hezka_tabulka(kontroly["errorSeconds_1d"], 5) + Fore.RESET
         else:
-            radek += Fore.GREEN + hezka_tabulka(kontroly["errorSeconds_1d"], 5) + Fore.RESET
+            radek += Fore.GREEN + hezka_tabulka(kontroly["errorSeconds_1d"] or 0, 5) + Fore.RESET
         radek += ' │'
 
         print (radek)

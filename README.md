@@ -15,7 +15,10 @@
  * API klíč se po vygenerování ve WEDOS OnLine neukládá v čitelné podobě. Pokud si jej neuložíte je nutné vygenerovat nový.
  * E-mail a API klíč vložte do souboru `config.py`
 
-### Verze 1.1 (aktuální)
+### Verze 1.1.1 (aktuální)
+- Fix: Handle NoneType in "errorSeconds_1d" comparison
+
+### Verze 1.1
 - [x] ošetření stavu kontrol
 - [x] dát volbu filtrace kontrol při spuštění skriptu
 - [x] ošetřit maximální velikost názvů přímo v hezka_tabulka()
